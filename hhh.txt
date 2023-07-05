@@ -1,0 +1,2 @@
+git config --global user.name 'Zortion'
+git config --global user.email 'vladchernishov09874@gmail.com'
