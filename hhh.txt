@@ -1,2 +1,11 @@
 git config --global user.name 'Zortion'
 git config --global user.email 'vladchernishov09874@gmail.com'
+
+
+#Dz №1
+word = str(input())
+e = word[::-1]        #e = word[::-1] Чтобы проверить, является ли данная строка палиндромом, достаточно сравнить ее с обратной посимвольно - если они совпадают, то это палиндром, эта команда так и делает
+if word == e:
+  print("True")
+else:
+  print("False")
